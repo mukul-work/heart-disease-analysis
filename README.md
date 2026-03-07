@@ -90,5 +90,3 @@ http://localhost:5000
 ## Data Visualization
 
 All dashboards and story visualizations were created using **Tableau Public** and embedded into the web application for interactive exploration.
-
----
