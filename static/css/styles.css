@@ -1,0 +1,126 @@
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+}
+
+body{
+font-family:Segoe UI, sans-serif;
+background:#f4f6f8;
+color:#333;
+}
+
+.viz-page{
+width:100%;
+padding:0 40px;
+box-sizing:border-box;
+}
+
+.viz-page iframe{
+width:100%;
+border:none;
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#111;
+color:white;
+}
+
+.nav-links a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-size:15px;
+}
+
+.logo{
+font-weight:600;
+font-size:18px;
+}
+
+.content{
+max-width:1100px;
+margin:auto;
+padding:60px 20px;
+}
+
+.hero{
+text-align:center;
+margin-bottom:80px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+color:#666;
+max-width:700px;
+margin:auto;
+}
+
+.buttons{
+margin-top:30px;
+}
+
+.btn{
+background:#2563eb;
+color:white;
+padding:12px 24px;
+text-decoration:none;
+border-radius:6px;
+margin-right:10px;
+}
+
+.btn-outline{
+border:1px solid #2563eb;
+color:#2563eb;
+padding:12px 24px;
+text-decoration:none;
+border-radius:6px;
+}
+
+.section{
+margin-bottom:60px;
+}
+
+.section h2{
+margin-bottom:15px;
+font-size:26px;
+}
+
+.section p{
+color:#555;
+line-height:1.6;
+}
+
+.section ul{
+margin-left:20px;
+margin-top:10px;
+}
+
+.page-title{
+margin-bottom:30px;
+}
+
+.viz-container{
+background:white;
+padding:20px;
+border-radius:8px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+footer{
+text-align:center;
+padding:30px;
+margin-top:40px;
+background:#111;
+color:white;
+font-size:14px;
+}
